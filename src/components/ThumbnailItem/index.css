@@ -1,0 +1,30 @@
+/* Write your code here. */
+
+.button {
+  outline: none;
+  background-color: transparent;
+  cursor: pointer;
+  border: none;
+  height: 72px;
+  margin: 4px;
+  width: 72px;
+}
+
+.thumbnail-image {
+  border-radius: 4px;
+  width: 100%;
+  opacity: 0.5;
+}
+.active-img {
+  opacity: 1;
+}
+.list-items {
+  list-style-type: none;
+}
+@media screen and (min-width: 768px) {
+  .button {
+    border-radius: 6px;
+    width: 86px;
+    height: 86px;
+  }
+}

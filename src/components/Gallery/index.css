@@ -1,0 +1,56 @@
+/* Write your code here. */
+.app-container {
+  background-color: #ffffff;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.image-ele {
+  margin-top: 36px;
+  width: 80%;
+  height: 200px;
+  border-radius: 12px;
+  align-self: center;
+}
+@media screen and (min-width: 768px) {
+  .image-ele {
+    height: 550px;
+    margin-top: 48px;
+  }
+}
+.gallery-heading {
+  font-size: 20px;
+  font-family: 'Roboto';
+  color: #1e293b;
+  margin-left: 42px;
+  font-family: 400;
+}
+@media screen and (min-width: 768px) {
+  .gallery-heading {
+    font-size: 26px;
+    margin-left: 150px;
+  }
+}
+.gallery-name {
+  font-size: 10px;
+  font-family: 'Roboto';
+  color: #64748b;
+  margin-left: 42px;
+  font-family: 500;
+}
+@media screen and (min-width: 768px) {
+  .gallery-name {
+    font-size: 16px;
+    margin-left: 150px;
+  }
+}
+.thumbnail-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+@media screen and (min-width: 768px) {
+  .thumbnail-container {
+    margin-left: 100px;
+  }
+}
